@@ -17,6 +17,10 @@
 #include <immintrin.h>
 
 
+
+namespace pslr{
+
+
 template <typename Val>
 class KVServer{
 public:
@@ -123,3 +127,5 @@ private:
     ps::KVServer<float>* ps_server_;
 
 };
+
+}
