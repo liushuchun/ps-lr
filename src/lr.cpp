@@ -10,6 +10,7 @@
 #include <iostream>
 #include <iomanip>
 #include <fstream>
+#include <data.h>
 
 namespace pslr {
     LR::LR(int num_feature, float learning_rate, float C_, int random_state) :
@@ -21,7 +22,7 @@ namespace pslr {
         kv_ = kv;
     }
 
-    void LR::Train(DataIter &iter, int batch_size = 100) {
+    void LR::Train(pslr::DataIter &iter, int batch_size = 100) {
         while (iter.HashNext()) {
             std::vector<Sample> batch = iter.NextBatch(batch_size);
             PullWeight_();
@@ -43,7 +44,7 @@ namespace pslr {
     }
 
 
-    void LR::Test(DataIter& iter,int num_iter){
+    void LR::Test(pslr::DataIter& iter,int num_iter){
         PullWeight_();//pull the latest
         std::vector<Sample> batch=iter.NextBatch(-1);
         float acc=0;

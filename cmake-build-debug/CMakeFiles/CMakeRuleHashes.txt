@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+62b1db06023a1822d4c3bd08432be4e7 external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-build
+dd0c3eeff11ea6cde69efb0dbf46191d external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-configure
+4a4f48ff6af841aa37a4510455bd03e5 external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-download
+d682cb85f5f7dd65b4fd69fc062c6769 external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-install
+af3ead15a3bc66402a298ce328bfe896 external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-mkdir
+28353c0158ba33c3cfdb53665fed703b external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-patch
+4be2dbff72f6ff610fe4129f27c69713 external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-update
+3440084fb6dcee0217688aaf6707aeed ps-lite/CMakeFiles/ZMQ
+6d4e5813deb508b1a26e9f43940362f7 ps-lite/CMakeFiles/ZMQ-complete
+c32d6eee58bb2038e43f211e7ae88204 ps-lite/src/meta.pb.cc

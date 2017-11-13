@@ -111,44 +111,178 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ps_lr
+# Target rules for targets named Demo
 
 # Build rule for target.
-ps_lr: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ps_lr
-.PHONY : ps_lr
+Demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Demo
+.PHONY : Demo
 
 # fast build rule for target.
-ps_lr/fast:
-	$(MAKE) -f CMakeFiles/ps_lr.dir/build.make CMakeFiles/ps_lr.dir/build
-.PHONY : ps_lr/fast
+Demo/fast:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/build
+.PHONY : Demo/fast
 
-main.o: main.cpp.o
+#=============================================================================
+# Target rules for targets named pslite
 
-.PHONY : main.o
+# Build rule for target.
+pslite: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pslite
+.PHONY : pslite
+
+# fast build rule for target.
+pslite/fast:
+	$(MAKE) -f ps-lite/CMakeFiles/pslite.dir/build.make ps-lite/CMakeFiles/pslite.dir/build
+.PHONY : pslite/fast
+
+#=============================================================================
+# Target rules for targets named ZMQ
+
+# Build rule for target.
+ZMQ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ZMQ
+.PHONY : ZMQ
+
+# fast build rule for target.
+ZMQ/fast:
+	$(MAKE) -f ps-lite/CMakeFiles/ZMQ.dir/build.make ps-lite/CMakeFiles/ZMQ.dir/build
+.PHONY : ZMQ/fast
+
+src/lr.o: src/lr.cpp.o
+
+.PHONY : src/lr.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/ps_lr.dir/build.make CMakeFiles/ps_lr.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/lr.cpp.o:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/lr.cpp.o
+.PHONY : src/lr.cpp.o
 
-main.i: main.cpp.i
+src/lr.i: src/lr.cpp.i
 
-.PHONY : main.i
+.PHONY : src/lr.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/ps_lr.dir/build.make CMakeFiles/ps_lr.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/lr.cpp.i:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/lr.cpp.i
+.PHONY : src/lr.cpp.i
 
-main.s: main.cpp.s
+src/lr.s: src/lr.cpp.s
 
-.PHONY : main.s
+.PHONY : src/lr.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/ps_lr.dir/build.make CMakeFiles/ps_lr.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/lr.cpp.s:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/lr.cpp.s
+.PHONY : src/lr.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/server.o: src/server.cpp.o
+
+.PHONY : src/server.o
+
+# target to build an object file
+src/server.cpp.o:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/server.cpp.o
+.PHONY : src/server.cpp.o
+
+src/server.i: src/server.cpp.i
+
+.PHONY : src/server.i
+
+# target to preprocess a source file
+src/server.cpp.i:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/server.cpp.i
+.PHONY : src/server.cpp.i
+
+src/server.s: src/server.cpp.s
+
+.PHONY : src/server.s
+
+# target to generate assembly for a file
+src/server.cpp.s:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/server.cpp.s
+.PHONY : src/server.cpp.s
+
+src/util.o: src/util.cpp.o
+
+.PHONY : src/util.o
+
+# target to build an object file
+src/util.cpp.o:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/util.cpp.o
+.PHONY : src/util.cpp.o
+
+src/util.i: src/util.cpp.i
+
+.PHONY : src/util.i
+
+# target to preprocess a source file
+src/util.cpp.i:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/util.cpp.i
+.PHONY : src/util.cpp.i
+
+src/util.s: src/util.cpp.s
+
+.PHONY : src/util.s
+
+# target to generate assembly for a file
+src/util.cpp.s:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/util.cpp.s
+.PHONY : src/util.cpp.s
+
+src/worker.o: src/worker.cpp.o
+
+.PHONY : src/worker.o
+
+# target to build an object file
+src/worker.cpp.o:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/worker.cpp.o
+.PHONY : src/worker.cpp.o
+
+src/worker.i: src/worker.cpp.i
+
+.PHONY : src/worker.i
+
+# target to preprocess a source file
+src/worker.cpp.i:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/worker.cpp.i
+.PHONY : src/worker.cpp.i
+
+src/worker.s: src/worker.cpp.s
+
+.PHONY : src/worker.s
+
+# target to generate assembly for a file
+src/worker.cpp.s:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/src/worker.cpp.s
+.PHONY : src/worker.cpp.s
 
 # Help Target
 help:
@@ -158,10 +292,24 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... ps_lr"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Demo"
+	@echo "... pslite"
+	@echo "... ZMQ"
+	@echo "... src/lr.o"
+	@echo "... src/lr.i"
+	@echo "... src/lr.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/server.o"
+	@echo "... src/server.i"
+	@echo "... src/server.s"
+	@echo "... src/util.o"
+	@echo "... src/util.i"
+	@echo "... src/util.s"
+	@echo "... src/worker.o"
+	@echo "... src/worker.i"
+	@echo "... src/worker.s"
 .PHONY : help
 
 

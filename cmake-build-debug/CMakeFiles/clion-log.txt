@@ -13,6 +13,15 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
+-- Start building project 
+-- Could NOT find ZMQ (missing:  ZMQ_LIBRARY ZMQ_INCLUDE_DIR) 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Found Protobuf: /usr/local/lib/libprotobuf.dylib (found version "3.4.0") 
+-- Found PROTOBUF Compiler: /usr/local/bin/protoc
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/macbook/CLionProjects/ps-lr/cmake-build-debug

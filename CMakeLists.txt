@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.7)
 
-project(distlr C CXX)
-set(CMAKE_CXX_FLAGS "-std=c++11 -O3 -Wno-unknown-pragmas -Wall -fopenmp")
+project(ps-lr C CXX)
+set(CMAKE_CXX_FLAGS "-std=c++11 -O3 -Wno-unknown-pragmas -Wall")
 
 message(STATUS "Start building project " ${DISTLR_BINARY_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin") # set output directory
@@ -19,4 +19,8 @@ include_directories(
 )
 
 add_subdirectory("ps-lite")
-add_subdirectory("src")
+
+file(GLOB hi_src "src/*cpp")
+
+add_executable(Demo ${hi_src})
+#target_link_libraries(hi )

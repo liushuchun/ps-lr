@@ -1,0 +1,3 @@
+repository='https://github.com/zeromq/libZMQ.git'
+module=''
+tag=''

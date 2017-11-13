@@ -1,3 +1,7 @@
 /Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles/ps_lr.dir
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles/Demo.dir
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/CMakeFiles/pslite.dir
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/CMakeFiles/rebuild_cache.dir
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/CMakeFiles/edit_cache.dir
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/CMakeFiles/ZMQ.dir

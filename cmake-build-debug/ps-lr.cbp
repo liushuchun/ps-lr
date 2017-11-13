@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ps-lr"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ps-lite\;CMake Files\ps-lite\cmake\;CMake Files\ps-lite\cmake\External\;CMake Files\ps-lite\cmake\Modules\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\external\;CMake Files\cmake-build-debug\external\ZMQ-prefix\;CMake Files\cmake-build-debug\external\ZMQ-prefix\tmp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo">
+				<Option output="/Users/macbook/CLionProjects/ps-lr/bin/Demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/macbook/CLionProjects/ps-lr/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/include"/>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/ps-lite/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo/fast">
+				<Option output="/Users/macbook/CLionProjects/ps-lr/bin/Demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/macbook/CLionProjects/ps-lr/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/include"/>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/ps-lite/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pslite">
+				<Option output="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/libpslite.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/include"/>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/ps-lite/include"/>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/ps-lite/pslite"/>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-install/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/include"/>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/Makefile&quot;  VERBOSE=1 pslite"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pslite/fast">
+				<Option output="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/libpslite.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/include"/>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/ps-lite/include"/>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/ps-lite/pslite"/>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-install/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/include"/>
+					<Add directory="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/Makefile&quot;  VERBOSE=1 pslite/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZMQ">
+				<Option working_dir="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/Makefile&quot;  VERBOSE=1 ZMQ"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/src/meta.pb.cc">
+			<Option target="pslite"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/src/meta.pb.cc.rule">
+			<Option target="pslite"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/ps-lite/src/customer.cc">
+			<Option target="pslite"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/ps-lite/src/postoffice.cc">
+			<Option target="pslite"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/ps-lite/src/van.cc">
+			<Option target="pslite"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/src/lr.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/src/main.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/src/server.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/src/util.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/src/worker.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/ps-lite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ps-lite\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/ps-lite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ps-lite\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/ps-lite/cmake/ProtoBuf.cmake">
+			<Option virtualFolder="CMake Files\ps-lite\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/ps-lite/cmake/ProtoBuf.cmake">
+			<Option virtualFolder="CMake Files\ps-lite\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/ps-lite/cmake/External/zmq.cmake">
+			<Option virtualFolder="CMake Files\ps-lite\cmake\External\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/ps-lite/cmake/External/zmq.cmake">
+			<Option virtualFolder="CMake Files\ps-lite\cmake\External\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/ps-lite/cmake/Modules/FindZMQ.cmake">
+			<Option virtualFolder="CMake Files\ps-lite\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/ps-lite/cmake/Modules/FindZMQ.cmake">
+			<Option virtualFolder="CMake Files\ps-lite\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/tmp/ZMQ-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\external\ZMQ-prefix\tmp\"/>
+		</Unit>
+		<Unit filename="/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/tmp/ZMQ-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\external\ZMQ-prefix\tmp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

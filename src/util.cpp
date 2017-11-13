@@ -40,7 +40,7 @@ namespace pslr {
     }
 
     int toInt(const std::string& str) {
-        return ToInt(str.c_str());
+        return toInt(str.c_str());
     }
 
     float toFloat(const char* str) {
@@ -67,7 +67,7 @@ namespace pslr {
     }
 
     float toFloat(const std::string& str) {
-        return ToFloat(str.c_str());
+        return toFloat(str.c_str());
     }
 
 } // namespace distlr

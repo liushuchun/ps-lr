@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/CMakeFiles/ZMQ"
+		},
+		
+		{
+			"file" : "/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/CMakeFiles/ZMQ.rule"
+		},
+		
+		{
+			"file" : "/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/CMakeFiles/ZMQ-complete.rule"
+		},
+		
+		{
+			"file" : "/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-install.rule"
+		},
+		
+		{
+			"file" : "/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-mkdir.rule"
+		},
+		
+		{
+			"file" : "/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-download.rule"
+		},
+		
+		{
+			"file" : "/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-update.rule"
+		},
+		
+		{
+			"file" : "/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-patch.rule"
+		},
+		
+		{
+			"file" : "/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-configure.rule"
+		},
+		
+		{
+			"file" : "/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ZMQ" ],
+		"name" : "ZMQ"
+	}
+}

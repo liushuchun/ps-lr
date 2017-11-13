@@ -7,7 +7,7 @@
 
 #include "lr.h"
 #include "util.h"
-#include "data_iter.h"
+#include "data.h"
 #include "server.cpp"
 
 const int KSyncMode = -1;
@@ -48,7 +48,7 @@ void RunWorker(){
         kv->Wait(kv->Push(keys,vals));
     }
 
-    ps::Postoffice::Get()->Barrier(ps::KWorkerGroup);
+    ps::Postoffice::Get()->Barrier(ps::kWorkerGroup);
 
     std::cout<<"Worker["<< rank<<"]:start working ..."<<std::endl;
     int num_iteration=pslr::toInt(ps::Environment::Get()->find("NUM_ITERATION"));
@@ -78,7 +78,7 @@ void RunWorker(){
 
 
 int main() {
-    StartServer();
+    RunServer();
 
     ps::Start();
     RunWorker();

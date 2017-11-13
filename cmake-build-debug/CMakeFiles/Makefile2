@@ -60,39 +60,133 @@ CMAKE_SOURCE_DIR = /Users/macbook/CLionProjects/ps-lr
 CMAKE_BINARY_DIR = /Users/macbook/CLionProjects/ps-lr/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/ps_lr.dir
+# Target rules for target CMakeFiles/Demo.dir
 
 # All Build rule for target.
-CMakeFiles/ps_lr.dir/all:
-	$(MAKE) -f CMakeFiles/ps_lr.dir/build.make CMakeFiles/ps_lr.dir/depend
-	$(MAKE) -f CMakeFiles/ps_lr.dir/build.make CMakeFiles/ps_lr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ps_lr"
-.PHONY : CMakeFiles/ps_lr.dir/all
+CMakeFiles/Demo.dir/all:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/depend
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Demo"
+.PHONY : CMakeFiles/Demo.dir/all
 
 # Include target in all.
-all: CMakeFiles/ps_lr.dir/all
+all: CMakeFiles/Demo.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ps_lr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ps_lr.dir/all
+CMakeFiles/Demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ps_lr.dir/rule
+.PHONY : CMakeFiles/Demo.dir/rule
 
 # Convenience name for target.
-ps_lr: CMakeFiles/ps_lr.dir/rule
+Demo: CMakeFiles/Demo.dir/rule
 
-.PHONY : ps_lr
-
-# clean rule for target.
-CMakeFiles/ps_lr.dir/clean:
-	$(MAKE) -f CMakeFiles/ps_lr.dir/build.make CMakeFiles/ps_lr.dir/clean
-.PHONY : CMakeFiles/ps_lr.dir/clean
+.PHONY : Demo
 
 # clean rule for target.
-clean: CMakeFiles/ps_lr.dir/clean
+CMakeFiles/Demo.dir/clean:
+	$(MAKE) -f CMakeFiles/Demo.dir/build.make CMakeFiles/Demo.dir/clean
+.PHONY : CMakeFiles/Demo.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Demo.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory ps-lite
+
+# Convenience name for "all" pass in the directory.
+ps-lite/all: ps-lite/CMakeFiles/pslite.dir/all
+ps-lite/all: ps-lite/CMakeFiles/ZMQ.dir/all
+
+.PHONY : ps-lite/all
+
+# Convenience name for "clean" pass in the directory.
+ps-lite/clean: ps-lite/CMakeFiles/pslite.dir/clean
+ps-lite/clean: ps-lite/CMakeFiles/ZMQ.dir/clean
+
+.PHONY : ps-lite/clean
+
+# Convenience name for "preinstall" pass in the directory.
+ps-lite/preinstall:
+
+.PHONY : ps-lite/preinstall
+
+#=============================================================================
+# Target rules for target ps-lite/CMakeFiles/pslite.dir
+
+# All Build rule for target.
+ps-lite/CMakeFiles/pslite.dir/all:
+	$(MAKE) -f ps-lite/CMakeFiles/pslite.dir/build.make ps-lite/CMakeFiles/pslite.dir/depend
+	$(MAKE) -f ps-lite/CMakeFiles/pslite.dir/build.make ps-lite/CMakeFiles/pslite.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles --progress-num=15,16,17,18,19,20 "Built target pslite"
+.PHONY : ps-lite/CMakeFiles/pslite.dir/all
+
+# Include target in all.
+all: ps-lite/CMakeFiles/pslite.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ps-lite/CMakeFiles/pslite.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 ps-lite/CMakeFiles/pslite.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles 0
+.PHONY : ps-lite/CMakeFiles/pslite.dir/rule
+
+# Convenience name for target.
+pslite: ps-lite/CMakeFiles/pslite.dir/rule
+
+.PHONY : pslite
+
+# clean rule for target.
+ps-lite/CMakeFiles/pslite.dir/clean:
+	$(MAKE) -f ps-lite/CMakeFiles/pslite.dir/build.make ps-lite/CMakeFiles/pslite.dir/clean
+.PHONY : ps-lite/CMakeFiles/pslite.dir/clean
+
+# clean rule for target.
+clean: ps-lite/CMakeFiles/pslite.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ps-lite/CMakeFiles/ZMQ.dir
+
+# All Build rule for target.
+ps-lite/CMakeFiles/ZMQ.dir/all:
+	$(MAKE) -f ps-lite/CMakeFiles/ZMQ.dir/build.make ps-lite/CMakeFiles/ZMQ.dir/depend
+	$(MAKE) -f ps-lite/CMakeFiles/ZMQ.dir/build.make ps-lite/CMakeFiles/ZMQ.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11,12,13,14 "Built target ZMQ"
+.PHONY : ps-lite/CMakeFiles/ZMQ.dir/all
+
+# Include target in all.
+all: ps-lite/CMakeFiles/ZMQ.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ps-lite/CMakeFiles/ZMQ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 ps-lite/CMakeFiles/ZMQ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/macbook/CLionProjects/ps-lr/cmake-build-debug/CMakeFiles 0
+.PHONY : ps-lite/CMakeFiles/ZMQ.dir/rule
+
+# Convenience name for target.
+ZMQ: ps-lite/CMakeFiles/ZMQ.dir/rule
+
+.PHONY : ZMQ
+
+# clean rule for target.
+ps-lite/CMakeFiles/ZMQ.dir/clean:
+	$(MAKE) -f ps-lite/CMakeFiles/ZMQ.dir/build.make ps-lite/CMakeFiles/ZMQ.dir/clean
+.PHONY : ps-lite/CMakeFiles/ZMQ.dir/clean
+
+# clean rule for target.
+clean: ps-lite/CMakeFiles/ZMQ.dir/clean
 
 .PHONY : clean
 

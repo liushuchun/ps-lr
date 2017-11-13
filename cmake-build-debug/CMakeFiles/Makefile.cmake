@@ -15,6 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeCXXInformation.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeCommonLanguageInclude.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeCompilerIdDetection.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeConfigurableFile.in"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCCompiler.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCXXCompiler.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeDetermineCompileFeatures.cmake"
@@ -35,6 +36,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeTestCXXCompiler.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeTestCompilerCommon.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeUnixFindMake.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckIncludeFile.c.in"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckIncludeFile.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckLibraryExists.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckSymbolExists.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Compiler/AppleClang-C-FeatureTests.cmake"
@@ -83,6 +88,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/ExternalProject.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/FindGit.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/FindPackageMessage.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/FindProtobuf.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/FindThreads.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Internal/FeatureTesting.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Platform/Darwin-AppleClang-C.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Platform/Darwin-AppleClang-CXX.cmake"
@@ -94,12 +105,19 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Platform/Darwin.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/Platform/UnixPaths.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/ProcessorCount.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/RepositoryInfo.txt.in"
+  "/Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/SelectLibraryConfigurations.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.8.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
+  "external/ZMQ-prefix/tmp/ZMQ-cfgcmd.txt.in"
+  "../ps-lite/CMakeLists.txt"
+  "../ps-lite/cmake/External/zmq.cmake"
+  "../ps-lite/cmake/Modules/FindZMQ.cmake"
+  "../ps-lite/cmake/ProtoBuf.cmake"
   )
 
 # The corresponding makefile is:
@@ -116,9 +134,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.8.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ps-lite/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ps_lr.dir/DependInfo.cmake"
+  "CMakeFiles/Demo.dir/DependInfo.cmake"
+  "ps-lite/CMakeFiles/pslite.dir/DependInfo.cmake"
+  "ps-lite/CMakeFiles/ZMQ.dir/DependInfo.cmake"
   )

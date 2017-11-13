@@ -15,6 +15,8 @@
 #include <unistd.h>
 #include <memory>
 #include <immintrin.h>
+#include "ps/ps.h"
+#include "util.h"
 
 
 
@@ -27,9 +29,9 @@ public:
     KVServer(){
         using namespace std::placeholders;
         ps_server_=new ps::KVServer<float>(0);
-        ps_server_->set_request_handle(std::bind(&KVServer::DataHanlde,this,_1,_2,_3));
+        ps_server_->set_request_handle(std::bind(&KVServer::DataHandle,this,_1,_2,_3));
 
-        sync_mode_=!strcmp(ps::Environment::Get()->find("SYNC_MODE","1"));
+        sync_mode_=!strcmp(ps::Environment::Get()->find("SYNC_MODE"),"1");
         learning_rate_=pslr::toFloat(ps::Environment::Get()->find("LEARNING_RATE"));
 
         std::string mode=sync_mode_?"sync":"async";
@@ -46,9 +48,9 @@ public:
     }
 
 private:
-    void DataHanlde(const ps::KVMeta& req_meta,const ps::KVPairs<Val>& req_data,
+    void DataHandle(const ps::KVMeta& req_meta,const ps::KVPairs<Val>& req_data,
                     ps::KVServer<Val>* server){
-        int key=DeCodeKey(req_data.keys[0]);
+        int key=DecodeKey(req_data.keys[0]);
         auto& weights=weights_[key];
 
         size_t n=req_data.keys.size();
@@ -76,7 +78,7 @@ private:
                     //update the weight
 
                     for(size_t i=0;i<n;i++){
-                        weights[i]-=learning_rate*req_datas.vals[i]/merged.request.size();
+                        weights[i]-=learning_rate_*req_data.vals[i]/merged.request.size();
                     }
 
                     for(const auto& req:merged.request){
@@ -127,5 +129,28 @@ private:
     ps::KVServer<float>* ps_server_;
 
 };
+
+  class Scheduler:ps::SimpleApp{
+  public:
+      Scheduler(){
+          using namespace std;
+          ps_scheduler_=new ps::SimpleApp(0);
+          ps_scheduler_.set_request_handle();
+      }
+      ~Scheduler(){
+
+      }
+  private:
+      void DataHandle(const ps::KVMeta& req_meta,const ps::KVPairs<Val>& req_data,
+                      ps::KVServer<Val>* server){
+
+      }
+      ps::SimpleApp *ps_scheduler_;
+
+
+
+  };
+
+
 
 }

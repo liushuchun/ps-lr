@@ -1,0 +1,13 @@
+# Target labels
+ ZMQ
+# Source files and their labels
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/CMakeFiles/ZMQ
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/CMakeFiles/ZMQ.rule
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/ps-lite/CMakeFiles/ZMQ-complete.rule
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-install.rule
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-mkdir.rule
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-download.rule
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-update.rule
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-patch.rule
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-configure.rule
+/Users/macbook/CLionProjects/ps-lr/cmake-build-debug/external/ZMQ-prefix/src/ZMQ-stamp/ZMQ-build.rule
