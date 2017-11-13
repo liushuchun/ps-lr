@@ -4,6 +4,8 @@
 
 #ifndef PS_LR_UTIL_H
 #define PS_LR_UTIL_H
+#include <iostream>
+#include <vector>
 
 namespace  pslr{
     std::vector<std::string> Split(std::string line,char sparator);
